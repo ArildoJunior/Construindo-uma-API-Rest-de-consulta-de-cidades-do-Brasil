@@ -45,4 +45,33 @@ public class Country {
     public Integer getBacen() {
         return bacen;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPortugueseName(String portugueseName) {
+        this.portugueseName = portugueseName;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public void setBacen(Integer bacen) {
+        this.bacen = bacen;
+    }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", portugueseName='" + portugueseName + '\'' +
+                ", code='" + code + '\'' +
+                ", bacen=" + bacen +
+                '}';
+    }
+
+
 }
