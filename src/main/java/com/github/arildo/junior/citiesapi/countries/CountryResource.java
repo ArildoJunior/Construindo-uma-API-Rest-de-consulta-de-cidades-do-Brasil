@@ -1,7 +1,6 @@
-package com.github.arildo.junior.citiesapi;
+package com.github.arildo.junior.citiesapi.countries;
 
-import com.github.arildo.junior.citiesapi.countries.Country;
-import com.github.arildo.junior.citiesapi.repository.CoutryRepository;
+import com.github.arildo.junior.citiesapi.countries.repository.CoutryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
