@@ -1,4 +1,4 @@
-package com.github.arildo.junior.citiesapi.staties;
+package com.github.arildo.junior.citiesapi.states;
 
 import com.github.arildo.junior.citiesapi.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
